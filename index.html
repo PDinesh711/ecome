@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FUll website! </title>
+    <link rel="shortcut icon" href="./images/favicon-png-favicon-1024.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <div class="cointainer">
+            <img src="./images/logo.png" class="logo" alt="logo" title="logo..">
+            <div class="header-text">
+                <h1>The purpose is to teach,<br>bring learning to people </h1>
+                <a href=""> <span class="square"></span> </a>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio necessitatibus nisi inventore
+                    quidem, labore molestiae temporibus praesentium quas aperiam facere sit reiciendis! Tempore
+                    recusandae, provident voluptate quod neque ullam dolorum?</p>
+                <button class="common-btn"> Read More</button>
+                <div class="line">
+                    <span class="line1"></span> <br>
+                    <span class="line2"></span> <br>
+                    <span class="line3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav id="sidenav">
+        <ul>
+            <li> <a href="">HOME</a> </li>
+            <li> <a href="#about">ABOUT US</a> </li>
+            <li> <a href="#course">FEATURES</a> </li>
+            <li> <a href="#feature">COURSES</a> </li>
+            <li> <a href="">OFFER</a> </li>
+            <li> <a href="">CONTACT </a> </li>
+        </ul>
+    </nav>
+    <img src="./images/menu.png" id="menubtn">
+
+
+<!---about-->
+    <section id="about">
+        <div class="about-left-col">
+            <img src="./images/about.png">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nobis, veniam sequi, architecto laboriosam quam cupiditate repellat totam soluta hic in dicta similique sit dolor voluptatibus enim! Adipisci voluptas iste eos inventore. Vero, ducimus accusamus similique mollitia doloribus assumenda omnis hic suscipit, at sequi eaque veniam in facilis, corporis cum?</p>
+                <div class="line">
+                    <span class="line1"></span> <br>
+                    <span class="line2"></span> <br>
+                    <span class="line3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!----course-->
+    <section id="course">
+        <div class="image-course1">
+            <img src="./images/pic-1.png" class="pic1">
+            <h4>Learn Anywhere</h4>
+            <p>Lorem ipsum dolor sit amet consectetur,<br>adipisicing elit. Corrupti, ratione.</p>
+        </div>
+        <div class="image-course2">
+            <img src="./images/pic-2.png" class="pic2">
+            <h4>Expert Teachers</h4>
+            <p>Lorem ipsum dolor sit amet consectetur,<br>adipisicing elit. Corrupti, ratione.</p>
+        </div>
+        <div class="image-course3">
+            <img src="./images/pic-3.png" class="pic3">
+            <h4>Unlimited Access</h4>
+            <p>Lorem ipsum dolor sit amet consectetur,<br>adipisicing elit. Corrupti, ratione.</p>
+        </div>
+        <div class="ele4">
+        <div class="line">
+            <span class="line1"></span> <br>
+            <span class="line2"></span> <br>
+            <span class="line3"></span>
+        </div>
+        <button class="common-btn"> Start Free Trial</button>
+        </div>
+    </section>
+    <!---feature-->
+    <section id="feature">
+       
+        <div class="feature-left">
+            <h2>Browser Our Top Course </h2>
+            <span class="square"></span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit perferendis nobis quia animi consequatur atque voluptas corporis necessitatibus quibusdam, quo ipsam dolorem pariatur, in tenetur? Voluptatem magnam ullam quis quae veritatis tenetur? Ipsam praesentium sunt nesciunt adipisci. Earum, aspernatur! Sit.</p>
+            <button class="common-btn"> View All Course </button>
+            <div class="line">
+                <span class="line1"></span> <br>
+                <span class="line2"></span> <br>
+                <span class="line3"></span>
+            </div>
+            <div class="feature-right">
+                <img src="./images/course.png" class="feature-logo">
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var menubtn = document.getElementById("menubtn");
+        var sidenav = document.getElementById("sidenav");
+        sidenav.style.right = "-250px";
+        menubtn.onclick = function () {
+            if (sidenav.style.right == "-250px") {
+                sidenav.style.right = "0";
+            }
+            else {
+                sidenav.style.right = "-250px";
+            }
+        }
+    </script>
+</body>
+
+</html>
